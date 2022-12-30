@@ -8,7 +8,6 @@
 
 import os.log
 import LoopKitUI
-import LoopSupportKit
 import LoopSupportKitUI
 
 class LoopSupportPlugin: NSObject, SupportUIPlugin {
