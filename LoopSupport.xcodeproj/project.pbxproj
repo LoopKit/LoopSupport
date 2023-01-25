@@ -25,6 +25,7 @@
 		C12ECD06289560B90089EB07 /* LoopSupportKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A936A95425BC9A190085119C /* LoopSupportKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C14A7E7C295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */; };
 		C15349062960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15349052960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift */; };
+		C1821690297E55A7001EB097 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C182168E297E55A7001EB097 /* Localizable.strings */; };
 		C1BE9741295E3800008BA25D /* LoopKitAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE9740295E3800008BA25D /* LoopKitAnalytics.swift */; };
 		C1BE9744295E40B1008BA25D /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = C1BE9743295E40B1008BA25D /* Amplitude */; };
 /* End PBXBuildFile section */
@@ -96,6 +97,7 @@
 		A9CE801225BCAE4000C04F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsageDataPrivacyPreferenceView.swift; sourceTree = "<group>"; };
 		C15349052960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageDataPrivacyPreferenceMenuItem.swift; sourceTree = "<group>"; };
+		C182168F297E55A7001EB097 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C1BE9740295E3800008BA25D /* LoopKitAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopKitAnalytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				C14A7E7A295F2EA700CD87B4 /* Views */,
 				A936A95625BC9A190085119C /* LoopSupportKitUI.h */,
 				A936A95725BC9A190085119C /* Info.plist */,
+				C182168E297E55A7001EB097 /* Localizable.strings */,
 				A9CE800225BCAC8700C04F9B /* LoopSupportUI.swift */,
 				A9CE801225BCAE4000C04F9B /* Assets.xcassets */,
 				C1BE9740295E3800008BA25D /* LoopKitAnalytics.swift */,
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9CE801325BCAE4000C04F9B /* Assets.xcassets in Resources */,
+				C1821690297E55A7001EB097 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +469,17 @@
 			targetProxy = C12ECD07289560B90089EB07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C182168E297E55A7001EB097 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C182168F297E55A7001EB097 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A936A92025BC99CB0085119C /* Debug */ = {
