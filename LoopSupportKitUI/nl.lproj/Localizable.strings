@@ -2,13 +2,13 @@
 "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Deel anoniem een minimale hoeveelheid gegevens over deze versie van Loop, zodat ontwikkelaars weten hoeveel mensen Loop gebruiken. Het type apparaat en de versie van het besturingssysteem wordt ook gedeeld.";
 
 /* Button title for choosing onboarding without nightscout */
-"Continue" = "Ga verder";
+"Continue" = "Ga Verder";
 
 /* Description in UsageDataPrivacyPreferenceView for no sharing */
 "Do not share any data." = "Deel geen gegevens";
 
 /* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
-"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Naast versiegegevens kun je anoniem gegevens delen over hoe Loop op je telefoon wordt gebruikt. Gebruiksgegevens omvatten gebeurtenissen zoals het openen van Loop, bolussen, het toevoegen koolhydraten en het navigeren tussen schermen. Het bevat geen gezondheidsgegevens zoals glucosewaarden of dosering hoeveelheden.";
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Naast versiegegevens kun je anoniem gegevens delen over hoe Loop op je telefoon wordt gebruikt. Gebruiksgegevens omvatten gebeurtenissen zoals het openen van Loop, bolussen, het toevoegen koolhydraten en het navigeren tussen schermen. Het bevat geen gezondheidsgegevens zoals glucosewaarden of doseringhoeveelheden.";
 
 /* Title for LoopKit Analytics */
 "LoopKit Analytics" = "LoopKit Analytics";

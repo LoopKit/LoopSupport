@@ -1,0 +1,24 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Anonimowo udostępniaj minimalne dane o tej wersji Loop, aby pomóc programistom dowiedzieć się, ile osób korzysta z Loop. Które urządzenie i wersja systemu operacyjnego również zostaną udostępnione.";
+
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Nie udostępniaj żadnych danych.";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Oprócz informacji o wersji możesz anonimowo udostępniać dane o tym, jak Loop jest używany na Twoim telefonie. Dane dotyczące użytkowania obejmują takie zdarzenia, jak otwieranie pętli, podawanie bolusa, dodawanie węglowodanów i nawigacja między ekranami. Nie obejmuje danych zdrowotnych, takich jak wartości glukozy czy dawki.";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Brak udostępniania";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Udostępnij dane";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Udostępnij więcej danych";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Udostępnij tylko wersję";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Opcjonalnie możesz udostępnić dane użytkowania programistom Loop, aby ulepszyć Loop. Udostępnianie nie jest wymagane, a Loop będzie działać w pełni bez względu na wybraną opcję. Dane dotyczące użytkowania nie będą udostępniane stronom trzecim.";
+
