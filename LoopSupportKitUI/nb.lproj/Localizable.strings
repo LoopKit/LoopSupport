@@ -25,6 +25,12 @@
 /* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
 "Share Version Only" = "Del kun versjon";
 
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Send inn feilrapport";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Deling av bruksdata";
+
 /* Main summary text for UsageDataPrivacyPreferenceView */
 "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Du kan valgfritt velge å dele bruksdata med Loop-utviklere for å forbedre Loop. Deling er ikke nødvendig, og Loop vil fungere fullt ut uansett hvilket alternativ du velger. Bruksdata vil ikke bli delt med tredjeparter.";
 
