@@ -2,7 +2,7 @@
 "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Partajați în mod anonim date minime despre această versiune Loop, pentru a ajuta dezvoltatorii să știe câți oameni folosesc Loop. Ce dispozitiv și versiunea sistemului de operare vor fi, de asemenea, partajate.";
 
 /* Button title for choosing onboarding without nightscout */
-"Continue" = "Continuați";
+"Continue" = "Continuă";
 
 /* Description in UsageDataPrivacyPreferenceView for no sharing */
 "Do not share any data." = "Nu partajați niciun fel de date.";
