@@ -2,7 +2,7 @@
 "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared.";
 
 /* Button title for choosing onboarding without nightscout */
-"Continue" = "Continue";
+"Continue" = "继续";
 
 /* Description in UsageDataPrivacyPreferenceView for no sharing */
 "Do not share any data." = "Do not share any data.";
