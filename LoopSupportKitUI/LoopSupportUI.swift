@@ -13,7 +13,7 @@ import LoopKitUI
 
 public final class LoopSupportUI: SupportUI {
 
-    public static var pluginIdentifier: String = "LoopSupportUI"
+    public var pluginIdentifier: String = "LoopSupportUI"
 
     private var analytics = LoopKitAnalytics.shared
 
