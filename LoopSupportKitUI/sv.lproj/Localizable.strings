@@ -1,3 +1,35 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Dela anonymt minimalt med data om denna Loop-version för att hjälpa utvecklarna att veta hur många som använder Loop. Vilken enhet och operativsystemversion kommer också att delas.";
+
 /* Button title for choosing onboarding without nightscout */
 "Continue" = "Fortsätt";
 
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Dela inte någon data.";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Utöver versionsinformationen, dela anonymt data om hur Loop används på din telefon. Användningsdata inkluderar händelser som att öppna Loop, ge bolus, lägga till kolhydrater och navigera mellan skärmar. Det inkluderar inte hälsodata som glukosvärden eller doseringsmängder.";
+
+/* Title for LoopKit Analytics */
+"LoopKit Analytics" = "LoopKit Analytics";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Ingen delning";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Dela data";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Dela användningardata";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Dela endast version";
+
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Rapportera ett fel";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Delning av användningsdata";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Du kan välja att dela användningsdata med Loop-utvecklarna för att förbättra Loop. Delning är inte obligatorisk, och Loop kommer att fungera fullt ut oavsett vilket alternativ du väljer. Användningsdata kommer inte att delas med tredje part.";
