@@ -13,6 +13,7 @@ import LoopSupportKitUI
 class LoopSupportPlugin: NSObject, SupportUIPlugin {
     private let log = OSLog(category: "LoopSupportPlugin")
 
+    @MainActor
     public let support: SupportUI = LoopSupportUI()
 
     override init() {
