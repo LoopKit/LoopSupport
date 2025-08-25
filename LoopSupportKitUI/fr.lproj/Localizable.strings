@@ -25,6 +25,12 @@
 /* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
 "Share Version Only" = "Partager la version uniquement";
 
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Soumettre un rapport de bug";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Partage des données d'utilisation";
+
 /* Main summary text for UsageDataPrivacyPreferenceView */
 "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Vous pouvez éventuellement choisir de partager les données d'utilisation avec les développeurs de Loop pour améliorer Loop. Le partage n'est pas nécessaire et Loop fonctionnera pleinement, quelle que soit l'option choisie. Les données d'utilisation ne seront pas partagées avec des tiers.";
 
