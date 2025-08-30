@@ -8,7 +8,7 @@
 "Do not share any data." = "Non condividere alcun dato.";
 
 /* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
-"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Oltre alle informazioni sulla versione, condividi in modo anonimo i dati su come Loop viene utilizzato sul tuo telefono. I dati di utilizzo includono eventi come l'apertura del ciclo, la somministrazione di boli, l'aggiunta di carboidrati e la navigazione tra le schermate. Non include dati sanitari come valori di glucosio o quantità di dosaggio.";
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Oltre alle informazioni sulla versione, condividi in modo anonimo i dati su come Loop viene utilizzato sul tuo telefono. I dati di utilizzo includono eventi come l'apertura del ciclo, l'erogazione di boli, l'aggiunta di carboidrati e la navigazione tra le schermate. Non include dati sanitari come valori di glicemia o quantità dosate.";
 
 /* Title for LoopKit Analytics */
 "LoopKit Analytics" = "Analisi LoopKit";
@@ -26,7 +26,7 @@
 "Share Version Only" = "Condividi solo la versione";
 
 /* Navigation link title for Submit Bug Report */
-"Submit Bug Report" = "Invia Reporto Bug";
+"Submit Bug Report" = "Invia segnalazione bug";
 
 /* Navigation Link Title for Usage Data Sharing */
 "Usage Data Sharing" = "Condivisione dei dati di utilizzo";
