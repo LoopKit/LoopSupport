@@ -1,0 +1,996 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." : {
+      "comment" : "Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del anonymt minimale data om denne Loop-version for at hjælpe udviklere med at vide, hvor mange mennesker der bruger Loop. Hvilken enhed og operativsystemversion vil også blive delt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teile anonym minimale Daten über diese Loop-Version, damit die Entwickler wissen, wie viele Personen Loop verwenden. Welches Gerät und welche Betriebssystemversion genutzt werden, wird ebenfalls geteilt."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparta de forma anónima datos mínimos sobre esta versión de Loop, para ayudar a los desarrolladores a saber cuántas personas están usando Loop. Su dispositivo y versión del sistema operativo también se compartirán."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager anonymement des données minimales sur cette version de Loop, pour aider les développeurs à comprendre combien de personnes utilisent Loop. L'appareil et la version du système d'exploitation seront également partagés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi in modo anonimo dati minimi su questa versione di Loop, per aiutare gli sviluppatori a sapere quante persone stanno utilizzando Loop. Verranno condivisi anche il dispositivo e la versione del sistema operativo."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del anonymt minimalt med data om denne Loop-versjonen, for å hjelpe utviklere å vite hvor mange som bruker Loop. Hvilken enhet og operativsystemversjon vil også bli delt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel anoniem een minimale hoeveelheid gegevens over deze versie van Loop, zodat ontwikkelaars weten hoeveel mensen Loop gebruiken. Het type apparaat en de versie van het besturingssysteem wordt ook gedeeld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anonimowo udostępniaj ograniczone dane o tej wersji pętli, aby pomóc programistom dowiedzieć się, ile osób z niej korzysta. Udostępnione zostaną również informacje dotyczące telefonu i systemu operacyjnego."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați în mod anonim date minime despre această versiune Loop, pentru a ajuta dezvoltatorii să știe câți oameni folosesc Loop. Ce dispozitiv și versiunea sistemului de operare vor fi, de asemenea, partajate."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Анонимно делиться минимальными данными об этой версии Loop, чтобы помочь разработчикам узнать, сколько людей используют Loop. Также будут переданы данные об устройстве и версии операционной системы."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geliştiricilerin Loop'u kaç kişinin kullandığını bilmelerine yardımcı olmak için bu Loop sürümüyle ilgili minimum verileri anonim olarak paylaşın. Hangi cihaz olduğu ve işletim sistemi sürümü de paylaşılacaktır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared."
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "comment" : "Button title for choosing onboarding without nightscout",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuer"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जारी"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga Verder"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontynuuj"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovať"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam et"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续"
+          }
+        }
+      }
+    },
+    "Do not share any data." : {
+      "comment" : "Description in UsageDataPrivacyPreferenceView for no sharing",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del ikke data."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Daten teilen."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No compartir ningún dato."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne partager aucune donnée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non condividere alcun dato."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke del noen data."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel geen gegevens"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udostępniaj żadnych danych."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu partajați niciun fel de date."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не делиться никакими данными."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herhangi bir veri paylaşmayın."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do not share any data."
+          }
+        }
+      }
+    },
+    "In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." : {
+      "comment" : "Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ud over versionsoplysninger kan du anonymt dele data om, hvordan Loop bruges på din telefon. Brugsdata omfatter begivenheder som at åbne Loop, bolus, tilføje kulhydrater og navigere mellem skærme. De omfatter ikke sundhedsdata som glukoseværdier eller doseringsmængder."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusätzlich zu den Versionsinformationen kannst Du anonym Daten darüber weitergeben, wie Loop auf Deinem Telefon verwendet wird. Zu den Nutzungsdaten gehören Ereignisse wie das Öffnen von Loop, Bolusgaben, Hinzufügen von Kohlenhydraten und das Navigieren zwischen Bildschirmen. Sie umfassen keine Gesundheitsdaten wie Glukosewerte oder Bolusmengen."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Además de la información sobre la versión, comparte de forma anónima datos sobre cómo se utiliza Loop en tu teléfono. Los datos de uso incluyen eventos como la apertura de Loop, la administración de bolos, la adición de carbohidratos y la navegación entre pantallas. No incluye datos de salud como valores de glucosa o cantidades de dosis."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En plus des informations de version, partagez anonymement des données sur la façon dont Loop est utilisé sur votre téléphone. Les données d’utilisation comprennent des événements tels que l’ouverture de boucle, les bolus, l’ajout de glucides et la navigation entre les écrans. Il n’inclut pas les données de santé telles que les valeurs de glucose ou les quantités de dosage."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oltre alle informazioni sulla versione, condividi in modo anonimo i dati su come Loop viene utilizzato sul tuo telefono. I dati di utilizzo includono eventi come l'apertura del ciclo, l'erogazione di boli, l'aggiunta di carboidrati e la navigazione tra le schermate. Non include dati sanitari come valori di glicemia o quantità dosate."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I tillegg til versjonsinformasjon, kan du anonymt dele data om hvordan Loop brukes på telefonen din. Bruksdata inkluderer hendelser som åpning av loop, bolusering, tilsetning av karbohydrater og navigering mellom skjermer. Den inkluderer ikke helsedata som blodsukkerverdier eller doseringsmengder."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naast versiegegevens kun je anoniem gegevens delen over hoe Loop op je telefoon wordt gebruikt. Gebruiksgegevens omvatten gebeurtenissen zoals het openen van Loop, bolussen, het toevoegen koolhydraten en het navigeren tussen schermen. Het bevat geen gezondheidsgegevens zoals glucosewaarden of doseringhoeveelheden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprócz informacji statystycznych możesz anonimowo udostępniać dane dotyczące wykorzystania pętli w Twoim telefonie. Dane dotyczące użytkowania obejmują m.in.: uruchomienie pętli, podawanie bolusa, wprowadzenie węglowodanów i nawigację między ekranami. Nie obejmują danych zdrowotnych, takich jak wartości glukozy czy dawki insuliny."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pe lângă informațiile despre versiune, partajați în mod anonim date despre modul în care Loop este utilizat pe telefonul dvs. Datele de utilizare includ evenimente precum deschiderea buclei, bolusarea, adăugarea de carbohidrați și navigarea între ecrane. Nu include date de sănătate, cum ar fi valorile glucozei sau cantitățile de dozare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В дополнение к информации о версии, анонимно делиться данными о том, как Loop используется на вашем телефоне. Данные об использовании включают такие события, как открытие петли, введение болюса, добавление углеводов и перемещение между экранами. Они не включают данные о состоянии здоровья, такие как значения глюкозы или количество доз."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüm bilgilerine ek olarak, Loop'un telefonunuzda nasıl kullanıldığına ilişkin verileri anonim olarak paylaşın. Kullanım verileri, Loop'u açma, bolus gönderme, karbonhidrat ekleme ve ekranlar arasında gezinme gibi olayları içerir. KŞ değerleri veya dozaj miktarları gibi sağlık verilerini içermez."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts."
+          }
+        }
+      }
+    },
+    "LoopKit Analytics" : {
+      "comment" : "Title for LoopKit Analytics",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Análisis LoopKit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analisi LoopKit"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analityka LoopKit"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analitice LoopKit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analizi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LoopKit Analytics"
+          }
+        }
+      }
+    },
+    "No Sharing" : {
+      "comment" : "Title in UsageDataPrivacyPreferenceView for no sharing",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen deling"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Daten teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No compartir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de partage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna condivisione"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen deling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niet Delen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak udostępniania"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fără partajare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не делиться"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paylaşım Yok"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Sharing"
+          }
+        }
+      }
+    },
+    "Share Data" : {
+      "comment" : "Title on UsageDataPrivacyPreferenceView",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del data"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsdaten teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir datos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager les données"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi dati"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del data"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel Gegevens"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udostępnij dane"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați datele"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться данными"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veri Paylaşımı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share Data"
+          }
+        }
+      }
+    },
+    "Share Usage Data" : {
+      "comment" : "Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del brugsdata"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsdaten teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir datos de uso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager les données d'utilisation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi dati di utilizzo"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del bruksdata"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel Gebruiksgegevens"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udostępnij więcej danych"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați datele de utilizare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Делиться данными об использовании"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanım Verilerini Paylaşın"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share Usage Data"
+          }
+        }
+      }
+    },
+    "Share Version Only" : {
+      "comment" : "Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del kun version"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur Version teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sólo versión para compartir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager la version uniquement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi solo la versione"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del kun versjon"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel Alleen Versie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udostępnij statystyki"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați numai versiunea"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться только версией"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca Sürümü Paylaş"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share Version Only"
+          }
+        }
+      }
+    },
+    "Submit Bug Report" : {
+      "comment" : "Navigation link title for Submit Bug Report",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odeslat hlášení o chybě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indsend fejlrapport"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlerbericht senden"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar informe de error"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soumettre un rapport de bug"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invia segnalazione bug"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send inn feilrapport"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugrapport Indienen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prześlij raport o błędzie"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raportare probleme"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправить отчет об ошибке"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata Raporu Gönder"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit Bug Report"
+          }
+        }
+      }
+    },
+    "Usage Data Sharing" : {
+      "comment" : "Navigation Link Title for Usage Data Sharing",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílení dat o používání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deling af brugerdata"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsdaten teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uso compartido de datos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partage des données d'utilisation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condivisione dei dati di utilizzo"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deling av bruksdata"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruiksgegevens Delen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udostępnianie danych użytkowania"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajarea datelor de utilizare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обмен данными об использовании"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanım Verisi Paylaşımı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage Data Sharing"
+          }
+        }
+      }
+    },
+    "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." : {
+      "comment" : "Main summary text for UsageDataPrivacyPreferenceView",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan eventuelt vælge at dele brugsdata med Loop-udviklere for at forbedre Loop. Deling er ikke påkrævet, og Loop vil fungere fuldt ud, uanset hvilken mulighed du vælger. Brugsdata vil ikke blive delt med tredjeparter."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst optional wählen, ob Du Nutzungsdaten mit Loop-Entwicklern teilen möchtest, um Loop zu verbessern. Die Weitergabe ist nicht erforderlich und Loop wird unabhängig davon vollständig funktionieren. Die Nutzungsdaten werden nicht an Dritte weitergegeben."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes optar por compartir los datos de uso con los desarrolladores del Loop para mejorarlo. No es obligatorio compartirlos y Loop funcionará plenamente independientemente de la opción que elijas. Los datos de uso no se compartirán con terceros."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez éventuellement choisir de partager les données d'utilisation avec les développeurs de Loop pour améliorer Loop. Le partage n'est pas nécessaire et Loop fonctionnera pleinement, quelle que soit l'option choisie. Les données d'utilisation ne seront pas partagées avec des tiers."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È possibile scegliere di condividere i dati di utilizzo con gli sviluppatori di Loop per migliorare Loop. La condivisione non è obbligatoria e Loop funzionerà pienamente indipendentemente dall'opzione scelta. I dati di utilizzo non saranno condivisi con terze parti."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan valgfritt velge å dele bruksdata med Loop-utviklere for å forbedre Loop. Deling er ikke nødvendig, og Loop vil fungere fullt ut uansett hvilket alternativ du velger. Bruksdata vil ikke bli delt med tredjeparter."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kunt ervoor kiezen om gebruiksgegevens te delen met de ontwikkelaars van Loop om Loop te verbeteren. Het delen is niet vereist en Loop zal volledig functioneren, ongeacht welke optie je kiest. Gebruiksgegevens worden niet gedeeld met derden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opcjonalnie możesz udostępnić dane użytkowania programistom, aby ulepszyć pętlę. Udostępnianie nie jest wymagane, a pętla będzie w pełni funkcjonalna bez względu na wybraną opcję. Dane dotyczące użytkowania nie będą udostępniane innym osobom."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puteți alege opțional să partajați datele de utilizare cu dezvoltatorii Loop pentru a îmbunătăți Loop. Partajarea nu este necesară, iar Loop va funcționa pe deplin, indiferent de opțiunea pe care o alegeți. Datele de utilizare nu vor fi partajate cu terțe părți."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По желанию вы можете поделиться данными об использовании с разработчиками Loop, чтобы улучшить Loop. Передача данных не является обязательной, и Loop будет функционировать в полном объеме независимо от того, какой вариант вы выберете. Данные об использовании не будут передаваться третьим лицам."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop'u iyileştirmek için isteğe bağlı olarak Loop geliştiricileri ile kullanım verilerini paylaşmayı seçebilirsiniz. Paylaşım gerekli değildir ve hangi seçeneği seçerseniz seçin Loop tam olarak çalışacaktır. Kullanım verileri üçüncü şahıslarla paylaşılmayacaktır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
