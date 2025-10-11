@@ -304,6 +304,9 @@
 				sk,
 				sv,
 				vi,
+				ce,
+				hu,
+				uk,
 			);
 			mainGroup = A936A90425BC99CB0085119C;
 			packageReferences = (
