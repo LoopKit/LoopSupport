@@ -808,7 +808,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Raportare probleme"
+            "value" : "Trimiteți raportul de eroare"
           }
         },
         "ru" : {
