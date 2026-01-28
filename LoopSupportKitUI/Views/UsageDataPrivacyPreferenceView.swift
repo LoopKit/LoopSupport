@@ -23,7 +23,7 @@ public struct UsageDataPrivacyPreferenceView: View {
         self.didFinish = didFinish
     }
 
-    private func choice(title: String, description: String, sharingPreference: UsageDataPrivacyPreference) -> CheckmarkListItem {
+    private func choice(title: String, description: String, sharingPreference: UsageDataPrivacyPreference) -> CheckmarkListItem<EmptyView> {
         CheckmarkListItem(
             title: Text(title),
             description: Text(description),
