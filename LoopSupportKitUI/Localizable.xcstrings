@@ -73,7 +73,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared."
+            "value" : "将匿名共享与当前 Loop 版本相关的最少数据，帮助开发者统计 Loop 的使用人数。共享内容还包括设备类型和操作系统版本。"
           }
         }
       }
@@ -281,7 +281,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Do not share any data."
+            "value" : "不共享任何数据。"
           }
         }
       }
@@ -358,7 +358,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts."
+            "value" : "除了版本信息外，Loop 还会匿名收集您在本机上的使用情况，例如打开应用、进行大剂量给药、记录碳水，以及在各个界面之间切换。这些数据不包含血糖数值或任何给药剂量等健康信息。"
           }
         }
       }
@@ -512,7 +512,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No Sharing"
+            "value" : "不共享"
           }
         }
       }
@@ -589,7 +589,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Share Data"
+            "value" : "数据共享"
           }
         }
       }
@@ -666,7 +666,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Share Usage Data"
+            "value" : "共享使用数据"
           }
         }
       }
@@ -743,7 +743,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Share Version Only"
+            "value" : "仅共享版本信息"
           }
         }
       }
@@ -826,7 +826,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Submit Bug Report"
+            "value" : "提交 Bug 报告"
           }
         }
       }
@@ -909,7 +909,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usage Data Sharing"
+            "value" : "使用数据共享"
           }
         }
       }
@@ -986,7 +986,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties."
+            "value" : "您可以选择是否将使用数据共享给 Loop 开发者，用于改进产品。是否共享完全由您决定，且不会影响 Loop 的任何功能。使用数据不会提供给第三方。"
           }
         }
       }
