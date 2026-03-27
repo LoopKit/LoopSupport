@@ -168,7 +168,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Continuă"
+            "value" : "Continuați"
           }
         },
         "ru" : {
@@ -340,7 +340,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pe lângă informațiile despre versiune, partajați în mod anonim date despre modul în care Loop este utilizat pe telefonul dvs. Datele de utilizare includ evenimente precum deschiderea buclei, bolusarea, adăugarea de carbohidrați și navigarea între ecrane. Nu include date de sănătate, cum ar fi valorile glucozei sau cantitățile de dozare."
+            "value" : "Pe lângă informațiile despre versiune, partajați în mod anonim date despre modul în care Loop este utilizat pe telefonul dumneavoastră. Datele de utilizare includ evenimente precum deschiderea buclei, bolusarea, adăugarea de carbohidrați și navigarea între ecrane. Nu include date de sănătate, cum ar fi valorile glicemiei sau insulina administrată."
           }
         },
         "ru" : {
