@@ -60,7 +60,8 @@ public final class LoopSupportUI: SupportUI {
     public func loopWillReset() { }
 
     public func loopDidReset() { }
-
+    
+    public func trainingMedia(for domain: TrainingMediaDomain) -> [MediaContent] { [] }
 }
 
 // LoopSupport also provides analytics
