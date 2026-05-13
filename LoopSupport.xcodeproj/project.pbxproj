@@ -298,15 +298,15 @@
 				Base,
 				fi,
 				he,
-				hi,
 				ja,
 				"pt-BR",
 				sk,
 				sv,
 				vi,
-				ce,
 				hu,
 				uk,
+				ko,
+				ar,
 			);
 			mainGroup = A936A90425BC99CB0085119C;
 			packageReferences = (
