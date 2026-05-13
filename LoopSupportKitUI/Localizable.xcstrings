@@ -123,12 +123,6 @@
             "value" : "Continue"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "जारी"
-          }
-        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
