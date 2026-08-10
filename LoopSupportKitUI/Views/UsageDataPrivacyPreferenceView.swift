@@ -65,7 +65,7 @@ public struct UsageDataPrivacyPreferenceView: View {
 
     public var chooser: some View {
         VStack(alignment: .center, spacing: 20) {
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 24) {
                 choice(title: LocalizedString("No Sharing", comment: "Title in UsageDataPrivacyPreferenceView for no sharing"),
                        description: LocalizedString("Do not share any data.", comment: "Description in UsageDataPrivacyPreferenceView for no sharing"),
                        sharingPreference: .noSharing)
