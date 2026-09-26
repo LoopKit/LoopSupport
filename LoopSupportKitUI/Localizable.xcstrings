@@ -144,7 +144,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ga Verder"
+            "value" : "Ga verder"
           }
         },
         "pl" : {
@@ -476,7 +476,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Niet Delen"
+            "value" : "Niet delen"
           }
         },
         "pl" : {
@@ -553,7 +553,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Gegevens"
+            "value" : "Deel gegevens"
           }
         },
         "pl" : {
@@ -630,7 +630,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Gebruiksgegevens"
+            "value" : "Deel gebruiksgegevens"
           }
         },
         "pl" : {
@@ -707,7 +707,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Alleen Versie"
+            "value" : "Deel alleen versie"
           }
         },
         "pl" : {
@@ -790,7 +790,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bugrapport Indienen"
+            "value" : "Bugrapport indienen"
           }
         },
         "pl" : {
@@ -873,7 +873,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gebruiksgegevens Delen"
+            "value" : "Gebruiksgegevens delen"
           }
         },
         "pl" : {
