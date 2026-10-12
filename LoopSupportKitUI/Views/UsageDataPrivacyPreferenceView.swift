@@ -77,7 +77,7 @@ public struct UsageDataPrivacyPreferenceView: View {
                        sharingPreference: .shareUsageDetailsWithDevelopers)
             }
         }
-        .onChange(of: preference) { newValue in
+        .onChange(of: preference) { _, newValue in
             didChoosePreference?(newValue)
         }
     }
