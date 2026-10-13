@@ -20,6 +20,8 @@ public class LoopKitAnalytics {
 
     private var client: Amplitude?
 
+    private var identifiedProperties: [String: NSObject] = [:]
+
     public private(set) var usageDataPrivacyPreference: UsageDataPrivacyPreference? {
         get {
             return UserDefaults.standard.usageDataPrivacyPreference
@@ -38,6 +40,8 @@ public class LoopKitAnalytics {
             } else if oldValue == .noSharing {
                 createClient()
             }
+
+            resendIdentifiedProperties()
         }
     }
 
@@ -74,15 +78,29 @@ public class LoopKitAnalytics {
     }
 
     public func recordIdentify(_ property: String, value: String) {
-        if usageDataPrivacyPreference == .shareUsageDetailsWithDevelopers {
-            client?.identify(AMPIdentify().set(property, value: value as NSString))
-        }
+        recordIdentify(property, object: value as NSString)
     }
 
     public func recordIdentify(_ property: String, array: [String]) {
+        recordIdentify(property, object: array as NSArray)
+    }
+
+    private func recordIdentify(_ property: String, object: NSObject) {
+        identifiedProperties[property] = object
         if usageDataPrivacyPreference == .shareUsageDetailsWithDevelopers {
-            client?.identify(AMPIdentify().set(property, value: array as NSArray))
+            client?.identify(AMPIdentify().set(property, value: object))
         }
+    }
+
+    private func resendIdentifiedProperties() {
+        guard usageDataPrivacyPreference == .shareUsageDetailsWithDevelopers, let client, !identifiedProperties.isEmpty else {
+            return
+        }
+        let identify = AMPIdentify()
+        for (property, object) in identifiedProperties {
+            identify.set(property, value: object)
+        }
+        client.identify(identify)
     }
 
 }
