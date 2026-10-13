@@ -51,6 +51,7 @@ public struct UsageDataPrivacyPreferenceView: View {
             if onboardingMode {
                 Spacer()
                 Button(action: {
+                    self.didChoosePreference?(self.preference)
                     self.didFinish?()
                 }) {
                     Text(LocalizedString("Continue", comment:"Button title for choosing onboarding without nightscout"))

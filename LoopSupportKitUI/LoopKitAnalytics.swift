@@ -46,6 +46,9 @@ public class LoopKitAnalytics {
     }
 
     public init() {
+        if UserDefaults.standard.usageDataPrivacyPreference == nil {
+            UserDefaults.standard.usageDataPrivacyPreference = .shareInstallationStatsOnly
+        }
         createClient()
     }
 
