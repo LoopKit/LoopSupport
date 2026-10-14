@@ -84,6 +84,7 @@ public class LoopKitAnalytics {
         properties["workspaceRevision"] = details["com-loopkit-LoopWorkspace-git-revision"]
         properties["loopBranch"] = details["com-loopkit-Loop-git-branch"]
         properties["loopRevision"] = details["com-loopkit-Loop-git-revision"]
+        properties["customizations"] = details["com-loopkit-Loop-customizations"]
         return properties
     }
 
