@@ -67,8 +67,25 @@ public class LoopKitAnalytics {
         amplitude.setTrackingOptions(AMPTrackingOptions().disableCity().disableCarrier().disableIDFA().disableLatLng().disableIPAddress().disableRegion())
         amplitude.initializeApiKey("7dd7414785560c0dd1ef802ac10c00b4")
         client = amplitude
-        client?.logEvent("LoopKitAnalytics instantiation")
+        client?.logEvent("LoopKitAnalytics instantiation", withEventProperties: buildProperties)
 #endif
+    }
+
+    private var buildProperties: [String: Any] {
+        var properties: [String: Any] = [:]
+        properties["buildNumber"] = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+        guard let url = Bundle.main.url(forResource: "BuildDetails", withExtension: "plist"),
+              let data = try? Data(contentsOf: url),
+              let details = try? PropertyListSerialization.propertyList(from: data, format: nil) as? [String: Any]
+        else {
+            return properties
+        }
+        properties["workspaceBranch"] = details["com-loopkit-LoopWorkspace-git-branch"]
+        properties["workspaceRevision"] = details["com-loopkit-LoopWorkspace-git-revision"]
+        properties["loopBranch"] = details["com-loopkit-Loop-git-branch"]
+        properties["loopRevision"] = details["com-loopkit-Loop-git-revision"]
+        properties["customizations"] = details["com-loopkit-Loop-customizations"]
+        return properties
     }
 
     public func recordAnalyticsEvent(_ name: String, withProperties properties: [AnyHashable : Any]?, outOfSession: Bool) {
