@@ -66,6 +66,7 @@ public class LoopKitAnalytics {
         let amplitude = Amplitude()
         amplitude.setTrackingOptions(AMPTrackingOptions().disableCity().disableCarrier().disableIDFA().disableLatLng().disableIPAddress().disableRegion())
         amplitude.initializeApiKey("7dd7414785560c0dd1ef802ac10c00b4")
+        amplitude.setServerUrl("https://ingest.loopkit.org/v1/events")
         client = amplitude
         client?.logEvent("LoopKitAnalytics instantiation", withEventProperties: buildProperties)
 #endif
