@@ -21,6 +21,10 @@
 		B66D1F552E6A752300471149 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B66D1F542E6A752300471149 /* Localizable.xcstrings */; };
 		C12ECD05289560B90089EB07 /* LoopSupportKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A936A95425BC9A190085119C /* LoopSupportKitUI.framework */; platformFilter = ios; };
 		C12ECD06289560B90089EB07 /* LoopSupportKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A936A95425BC9A190085119C /* LoopSupportKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1A55E022E9F000000B10002 /* IssueReportContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10001 /* IssueReportContext.swift */; };
+		C1A55E022E9F000000B10004 /* IssueReportSubmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */; };
+		C1A55E022E9F000000B10006 /* ReportProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10005 /* ReportProblemView.swift */; };
+		C1A55E022E9F000000B10008 /* SendIssueReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10007 /* SendIssueReportView.swift */; };
 		C14A7E7C295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */; };
 		C15349062960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15349052960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift */; };
 		C1BE9741295E3800008BA25D /* LoopKitAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE9740295E3800008BA25D /* LoopKitAnalytics.swift */; };
@@ -84,6 +88,10 @@
 		A9CE800A25BCACAE00C04F9B /* LoopSupportPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopSupportPlugin.swift; sourceTree = "<group>"; };
 		A9CE801225BCAE4000C04F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66D1F542E6A752300471149 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C1A55E022E9F000000B10001 /* IssueReportContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueReportContext.swift; sourceTree = "<group>"; };
+		C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueReportSubmitter.swift; sourceTree = "<group>"; };
+		C1A55E022E9F000000B10005 /* ReportProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemView.swift; sourceTree = "<group>"; };
+		C1A55E022E9F000000B10007 /* SendIssueReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendIssueReportView.swift; sourceTree = "<group>"; };
 		C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsageDataPrivacyPreferenceView.swift; sourceTree = "<group>"; };
 		C15349052960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageDataPrivacyPreferenceMenuItem.swift; sourceTree = "<group>"; };
 		C1BE9740295E3800008BA25D /* LoopKitAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopKitAnalytics.swift; sourceTree = "<group>"; };
@@ -136,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				C14A7E7A295F2EA700CD87B4 /* Views */,
+				C1A55E022E9F000000B10000 /* IssueReport */,
 				A936A95625BC9A190085119C /* LoopSupportKitUI.h */,
 				A936A95725BC9A190085119C /* Info.plist */,
 				B66D1F542E6A752300471149 /* Localizable.xcstrings */,
@@ -183,6 +192,17 @@
 				A9B3CDD525BCB4B1002D9E92 /* LoopKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A55E022E9F000000B10000 /* IssueReport */ = {
+			isa = PBXGroup;
+			children = (
+				C1A55E022E9F000000B10001 /* IssueReportContext.swift */,
+				C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */,
+				C1A55E022E9F000000B10005 /* ReportProblemView.swift */,
+				C1A55E022E9F000000B10007 /* SendIssueReportView.swift */,
+			);
+			path = IssueReport;
 			sourceTree = "<group>";
 		};
 		C14A7E7A295F2EA700CD87B4 /* Views */ = {
@@ -349,6 +369,10 @@
 				A9CE7DA125BC9C0200C04F9B /* OSLog.swift in Sources */,
 				C15349062960AA9000B47074 /* UsageDataPrivacyPreferenceMenuItem.swift in Sources */,
 				C14A7E7C295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift in Sources */,
+				C1A55E022E9F000000B10002 /* IssueReportContext.swift in Sources */,
+				C1A55E022E9F000000B10004 /* IssueReportSubmitter.swift in Sources */,
+				C1A55E022E9F000000B10006 /* ReportProblemView.swift in Sources */,
+				C1A55E022E9F000000B10008 /* SendIssueReportView.swift in Sources */,
 				A9CE7D8425BC9B3700C04F9B /* LocalizedString.swift in Sources */,
 				A9CE800325BCAC8700C04F9B /* LoopSupportUI.swift in Sources */,
 				C1BE9741295E3800008BA25D /* LoopKitAnalytics.swift in Sources */,
