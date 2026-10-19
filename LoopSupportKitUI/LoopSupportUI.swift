@@ -41,8 +41,13 @@ public final class LoopSupportUI: SupportUI {
 
     public func configurationMenuItems() -> [LoopKitUI.CustomMenuItem] {
         return [
+            CustomMenuItem(section: .support, view: AnyView(ReportProblemMenuItem(support: self))),
             CustomMenuItem(section: .configuration, view: AnyView(UsageDataPrivacyPreferenceMenuItem())),
         ]
+    }
+
+    public func reportProblemView() -> AnyView? {
+        AnyView(ReportProblemModal(delegate: delegate))
     }
 
     public func loopWillReset() { }
