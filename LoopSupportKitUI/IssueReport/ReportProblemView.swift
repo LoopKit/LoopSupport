@@ -151,3 +151,11 @@ private struct ActivityView: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
+
+private extension SupportInfoProvider {
+    func generateIssueReport() async -> String {
+        await withCheckedContinuation { continuation in
+            generateIssueReport { continuation.resume(returning: $0) }
+        }
+    }
+}
