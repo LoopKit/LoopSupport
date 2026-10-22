@@ -23,6 +23,7 @@
 		C12ECD06289560B90089EB07 /* LoopSupportKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A936A95425BC9A190085119C /* LoopSupportKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C1A55E022E9F000000B10002 /* IssueReportContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10001 /* IssueReportContext.swift */; };
 		C1A55E022E9F000000B10004 /* IssueReportSubmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */; };
+		C1A55E022E9F000000B1000A /* DiagnosticReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10009 /* DiagnosticReportView.swift */; };
 		C1A55E022E9F000000B10006 /* ReportProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10005 /* ReportProblemView.swift */; };
 		C1A55E022E9F000000B10008 /* SendIssueReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55E022E9F000000B10007 /* SendIssueReportView.swift */; };
 		C14A7E7C295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */; };
@@ -90,6 +91,7 @@
 		B66D1F542E6A752300471149 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C1A55E022E9F000000B10001 /* IssueReportContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueReportContext.swift; sourceTree = "<group>"; };
 		C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueReportSubmitter.swift; sourceTree = "<group>"; };
+		C1A55E022E9F000000B10009 /* DiagnosticReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticReportView.swift; sourceTree = "<group>"; };
 		C1A55E022E9F000000B10005 /* ReportProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemView.swift; sourceTree = "<group>"; };
 		C1A55E022E9F000000B10007 /* SendIssueReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendIssueReportView.swift; sourceTree = "<group>"; };
 		C14A7E7B295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsageDataPrivacyPreferenceView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		C1A55E022E9F000000B10000 /* IssueReport */ = {
 			isa = PBXGroup;
 			children = (
+				C1A55E022E9F000000B10009 /* DiagnosticReportView.swift */,
 				C1A55E022E9F000000B10001 /* IssueReportContext.swift */,
 				C1A55E022E9F000000B10003 /* IssueReportSubmitter.swift */,
 				C1A55E022E9F000000B10005 /* ReportProblemView.swift */,
@@ -371,6 +374,7 @@
 				C14A7E7C295F2EC100CD87B4 /* UsageDataPrivacyPreferenceView.swift in Sources */,
 				C1A55E022E9F000000B10002 /* IssueReportContext.swift in Sources */,
 				C1A55E022E9F000000B10004 /* IssueReportSubmitter.swift in Sources */,
+				C1A55E022E9F000000B1000A /* DiagnosticReportView.swift in Sources */,
 				C1A55E022E9F000000B10006 /* ReportProblemView.swift in Sources */,
 				C1A55E022E9F000000B10008 /* SendIssueReportView.swift in Sources */,
 				A9CE7D8425BC9B3700C04F9B /* LocalizedString.swift in Sources */,

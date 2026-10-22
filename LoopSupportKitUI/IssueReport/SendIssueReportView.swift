@@ -74,9 +74,14 @@ struct SendIssueReportView: View {
                 }
             }
 
-            if generateDiagnosticReport != nil {
+            if let generateDiagnosticReport {
                 Section(footer: Text(LocalizedString("Attaches Loop's issue report as a text file. It contains health data such as recent glucose, insulin, carbs and your therapy settings.", comment: "Footer for the include diagnostic report toggle"))) {
                     Toggle(LocalizedString("Include Diagnostic Report", comment: "Toggle for attaching the diagnostic report to an issue report"), isOn: $includeDiagnosticReport)
+                    if includeDiagnosticReport {
+                        NavigationLink(destination: DiagnosticReportView(generateReport: generateDiagnosticReport)) {
+                            Text(LocalizedString("View Diagnostic Report", comment: "Button to view the diagnostic report attached to an issue report"))
+                        }
+                    }
                 }
             }
 
