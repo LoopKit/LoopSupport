@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%1$d of %2$d characters" : {
+      "comment" : "Issue report description length (1: used)(2: limit)"
+    },
+    "Add Screenshots" : {
+      "comment" : "Button to choose screenshots for an issue report"
+    },
+    "Also Sent" : {
+      "comment" : "Header for the build and device details sent with an issue report"
+    },
     "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly",
       "localizations" : {
@@ -78,6 +87,12 @@
         }
       }
     },
+    "Attaches Loop's issue report as a text file. It contains health data such as recent glucose, insulin, carbs and your therapy settings." : {
+      "comment" : "Footer for the include diagnostic report toggle"
+    },
+    "Change Screenshots" : {
+      "comment" : "Button to change the screenshots on an issue report"
+    },
     "Continue" : {
       "comment" : "Button title for choosing onboarding without nightscout",
       "localizations" : {
@@ -123,12 +138,6 @@
             "value" : "Continue"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "जारी"
-          }
-        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -150,7 +159,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ga Verder"
+            "value" : "Ga verder"
           }
         },
         "pl" : {
@@ -208,6 +217,18 @@
           }
         }
       }
+    },
+    "Copy ID" : {
+      "comment" : "Button to copy the issue report ID"
+    },
+    "Describe what you saw and what you expected to happen" : {
+      "comment" : "Placeholder for the issue report description"
+    },
+    "Detailed logs as files. Only needed when a developer asks for them." : {
+      "comment" : "Report a problem option detail: export the critical event logs"
+    },
+    "Diagnostic Report" : {
+      "comment" : "Title of the diagnostic report viewer"
     },
     "Do not share any data." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for no sharing",
@@ -286,6 +307,21 @@
         }
       }
     },
+    "Done" : {
+      "comment" : "Button to close the issue report sent alert\nButton to close the report a problem screen"
+    },
+    "Email" : {
+      "comment" : "Issue report contact email placeholder"
+    },
+    "Export Critical Event Logs" : {
+      "comment" : "Report a problem option: export the critical event logs"
+    },
+    "Fill in any of these so developers can follow up with you." : {
+      "comment" : "Footer for issue report contact details"
+    },
+    "GitHub Username" : {
+      "comment" : "Issue report contact GitHub placeholder"
+    },
     "In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers",
       "localizations" : {
@@ -362,6 +398,9 @@
           }
         }
       }
+    },
+    "Include Diagnostic Report" : {
+      "comment" : "Toggle for attaching the diagnostic report to an issue report"
     },
     "LoopKit Analytics" : {
       "comment" : "Title for LoopKit Analytics",
@@ -440,6 +479,9 @@
         }
       }
     },
+    "Name" : {
+      "comment" : "Issue report contact name placeholder"
+    },
     "No Sharing" : {
       "comment" : "Title in UsageDataPrivacyPreferenceView for no sharing",
       "localizations" : {
@@ -482,7 +524,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Niet Delen"
+            "value" : "Niet delen"
           }
         },
         "pl" : {
@@ -516,6 +558,45 @@
           }
         }
       }
+    },
+    "OK" : {
+      "comment" : "Button to close the issue report error alert"
+    },
+    "One of the attachments isn't a supported image type." : {
+      "comment" : "Issue report error when an attachment type is refused"
+    },
+    "Open a GitHub Issue" : {
+      "comment" : "Report a problem option: open the public GitHub issues page"
+    },
+    "Preparing Report…" : {
+      "comment" : "Shown while the diagnostic report is generated"
+    },
+    "Private. Describe the problem and attach screenshots and a diagnostic report. Only the LoopKit development team can see it." : {
+      "comment" : "Report a problem option detail: submit an issue report to the developers"
+    },
+    "Public. For bugs you can describe without any personal or health data." : {
+      "comment" : "Report a problem option detail: open the public GitHub issues page"
+    },
+    "Report a Problem" : {
+      "comment" : "The title text for the report a problem menu item\nTitle of the report a problem screen"
+    },
+    "Report Submitted" : {
+      "comment" : "Title of the alert after an issue report was submitted"
+    },
+    "Reports go to the LoopKit development team and are visible only to them. Your IP address is used only to limit how often reports can be sent and is never stored." : {
+      "comment" : "Privacy footer for issue reports"
+    },
+    "Send to Developers" : {
+      "comment" : "Title of the issue report screen"
+    },
+    "Send to the Loop Developers" : {
+      "comment" : "Report a problem option: submit an issue report to the developers"
+    },
+    "Share" : {
+      "comment" : "Button to share the diagnostic report"
+    },
+    "Share a Diagnostic Report" : {
+      "comment" : "Report a problem option: share the diagnostic report yourself"
     },
     "Share Data" : {
       "comment" : "Title on UsageDataPrivacyPreferenceView",
@@ -559,7 +640,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Gegevens"
+            "value" : "Deel gegevens"
           }
         },
         "pl" : {
@@ -636,7 +717,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Gebruiksgegevens"
+            "value" : "Deel gebruiksgegevens"
           }
         },
         "pl" : {
@@ -713,7 +794,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deel Alleen Versie"
+            "value" : "Deel alleen versie"
           }
         },
         "pl" : {
@@ -748,8 +829,15 @@
         }
       }
     },
+    "Submit" : {
+      "comment" : "Button to submit an issue report to the developers"
+    },
+    "Submit Anonymously" : {
+      "comment" : "Toggle for submitting an issue report without contact details"
+    },
     "Submit Bug Report" : {
       "comment" : "Navigation link title for Submit Bug Report",
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -796,7 +884,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bugrapport Indienen"
+            "value" : "Bugrapport indienen"
           }
         },
         "pl" : {
@@ -830,6 +918,36 @@
           }
         }
       }
+    },
+    "Thank you. Your report ID is %1$@. Mention it if you discuss the problem on Zulip or GitHub." : {
+      "comment" : "Message after an issue report was sent (1: report ID)"
+    },
+    "The report is too large. Try fewer or smaller screenshots." : {
+      "comment" : "Issue report error when the upload is too large"
+    },
+    "The report won't include your name, contact details or anything else that identifies you." : {
+      "comment" : "Footer for an anonymous issue report"
+    },
+    "The server couldn't accept the report (%1$d %2$@)." : {
+      "comment" : "Issue report error with HTTP status (1) and reason (2)"
+    },
+    "The server sent an unexpected response." : {
+      "comment" : "Issue report error for an unreadable response"
+    },
+    "Title (optional)" : {
+      "comment" : "Placeholder for the issue report title"
+    },
+    "Too many reports have been sent from this network recently. Please try again later." : {
+      "comment" : "Issue report error when rate limited"
+    },
+    "Try Again" : {
+      "comment" : "Button to retry sending an issue report"
+    },
+    "Unable to Submit Report" : {
+      "comment" : "Title of the alert when an issue report fails"
+    },
+    "Up to %1$d screenshots or photos." : {
+      "comment" : "Footer for issue report screenshots (1: limit)"
     },
     "Usage Data Sharing" : {
       "comment" : "Navigation Link Title for Usage Data Sharing",
@@ -879,7 +997,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gebruiksgegevens Delen"
+            "value" : "Gebruiksgegevens delen"
           }
         },
         "pl" : {
@@ -913,6 +1031,12 @@
           }
         }
       }
+    },
+    "View Diagnostic Report" : {
+      "comment" : "Button to view the diagnostic report attached to an issue report"
+    },
+    "View the report, then save it or send it to someone helping you, for example on Zulip or Facebook. It contains health data such as glucose, insulin, carbs and your therapy settings." : {
+      "comment" : "Report a problem option detail: share the diagnostic report yourself"
     },
     "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." : {
       "comment" : "Main summary text for UsageDataPrivacyPreferenceView",
@@ -990,6 +1114,9 @@
           }
         }
       }
+    },
+    "Zulip Name" : {
+      "comment" : "Issue report contact Zulip placeholder"
     }
   },
   "version" : "1.0"
