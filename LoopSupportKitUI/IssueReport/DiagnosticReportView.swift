@@ -16,6 +16,7 @@ struct DiagnosticReportView: View {
 
     private struct ReportFile: Identifiable {
         let url: URL
+        let name: String
         var id: URL { url }
     }
 
@@ -40,7 +41,7 @@ struct DiagnosticReportView: View {
             }
         }
         .sheet(item: $reportFile, onDismiss: removeReportFile) { file in
-            ActivityView(activityItems: [file.url])
+            ActivityView(activityItems: [ReportItem(url: file.url, subject: file.name)])
         }
         .task {
             if report == nil {
@@ -56,7 +57,7 @@ struct DiagnosticReportView: View {
         let name = "Loop Report \(ISO8601DateFormatter.string(from: Date(), timeZone: .current, formatOptions: [.withSpaceBetweenDateAndTime, .withInternetDateTime])).md"
         let url = FileManager.default.temporaryDirectory.appendingPathComponent(name.replacingOccurrences(of: ":", with: "-"))
         if (try? report.write(to: url, atomically: true, encoding: .utf8)) != nil {
-            reportFile = ReportFile(url: url)
+            reportFile = ReportFile(url: url, name: name)
         }
     }
 
@@ -97,4 +98,27 @@ private struct ActivityView: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+}
+
+// Supplies the report name as the subject, e.g. for Mail
+private final class ReportItem: NSObject, UIActivityItemSource {
+    let url: URL
+    let subject: String
+
+    init(url: URL, subject: String) {
+        self.url = url
+        self.subject = subject
+    }
+
+    func activityViewControllerPlaceholderItem(_ activityViewController: UIActivityViewController) -> Any {
+        url
+    }
+
+    func activityViewController(_ activityViewController: UIActivityViewController, itemForActivityType activityType: UIActivity.ActivityType?) -> Any? {
+        url
+    }
+
+    func activityViewController(_ activityViewController: UIActivityViewController, subjectForActivityType activityType: UIActivity.ActivityType?) -> String {
+        subject
+    }
 }
