@@ -29,6 +29,7 @@ struct SendIssueReportView: View {
     private static let maxDescriptionLength = 20_000
     private static let maxScreenshots = 8
     private static let maxAttachmentBytes = 10_000_000
+    private static let maxDiagnosticReportBytes = 20_000_000
 
     private struct Screenshot: Identifiable {
         let id = UUID()
@@ -219,7 +220,7 @@ struct SendIssueReportView: View {
             var attachments = screenshots.map(\.attachment)
             if includeDiagnosticReport, let generateDiagnosticReport {
                 let report = await generateDiagnosticReport()
-                let data = Self.fitted(Data(report.utf8), toBytes: Self.maxAttachmentBytes - 4)
+                let data = Self.fitted(Data(report.utf8), toBytes: Self.maxDiagnosticReportBytes)
                 attachments.append(.init(filename: "diagnostic-report.txt", contentType: "text/plain; charset=utf-8", data: data))
             }
             let report = IssueReport(
