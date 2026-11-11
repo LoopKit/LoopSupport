@@ -2,13 +2,73 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%1$d of %2$d characters" : {
-      "comment" : "Issue report description length (1: used)(2: limit)"
+      "comment" : "Issue report description length (1: used)(2: limit)",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d van %2$d karakters"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d din %2$d caractere"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d 个字符 (共 %2$d)"
+          }
+        }
+      }
     },
     "Add Screenshots" : {
-      "comment" : "Button to choose screenshots for an issue report"
+      "comment" : "Button to choose screenshots for an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg screenshots toe"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adăugați capturi de ecran"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加截图"
+          }
+        }
+      }
     },
     "Also Sent" : {
-      "comment" : "Header for the build and device details sent with an issue report"
+      "comment" : "Header for the build and device details sent with an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuur ook naar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De asemenea, trimis"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "也已发送"
+          }
+        }
+      }
     },
     "Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly",
@@ -88,10 +148,50 @@
       }
     },
     "Attaches Loop's issue report as a text file. It contains health data such as recent glucose, insulin, carbs and your therapy settings." : {
-      "comment" : "Footer for the include diagnostic report toggle"
+      "comment" : "Footer for the include diagnostic report toggle",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voegt het probleemrapport van Loop toe als tekstbestand. Dit bestand bevat gezondheidsgegevens, zoals je recente glucosewaarden, toegediende insuline, ingevoerde koolhydraten en behandelinstellingen."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atașează raportul de probleme din aplicația Loop sub formă de fișier text. Acesta conține date privind starea de sănătate, precum valorile recente ale glicemiei, ale insulinei și ale carbohidraților, precum și setările terapiei dumneavoastră."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将 Loop 的问题报告作为文本文件附加。该文件包含健康数据，例如最近的血糖值、胰岛素剂量、碳水化合物摄入量以及您的治疗设置。"
+          }
+        }
+      }
     },
     "Change Screenshots" : {
-      "comment" : "Button to change the screenshots on an issue report"
+      "comment" : "Button to change the screenshots on an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijzig screenshots"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schimbați capturile de ecran"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改截图"
+          }
+        }
+      }
     },
     "Continue" : {
       "comment" : "Button title for choosing onboarding without nightscout",
@@ -219,16 +319,96 @@
       }
     },
     "Copy ID" : {
-      "comment" : "Button to copy the issue report ID"
+      "comment" : "Button to copy the issue report ID",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieer ID"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiați identificator"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制 ID"
+          }
+        }
+      }
     },
     "Describe what you saw and what you expected to happen" : {
-      "comment" : "Placeholder for the issue report description"
+      "comment" : "Placeholder for the issue report description",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschrijf wat je zag en wat je had verwacht dat er zou gebeuren."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrieți ce ați văzut și ce vă așteptați să se întâmple"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描述你所看到的以及你预期会发生什么。"
+          }
+        }
+      }
     },
     "Detailed logs as files. Only needed when a developer asks for them." : {
-      "comment" : "Report a problem option detail: export the critical event logs"
+      "comment" : "Report a problem option detail: export the critical event logs",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedetailleerde logbestanden. Alleen nodig als een ontwikkelaar erom vraagt."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jurnale detaliate sub formă de fișiere. Sunt necesare doar atunci când un dezvoltator le solicită."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将详细日志保存为文件。仅在开发人员提出要求时才需要。"
+          }
+        }
+      }
     },
     "Diagnostic Report" : {
-      "comment" : "Title of the diagnostic report viewer"
+      "comment" : "Title of the diagnostic report viewer",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagnostisch rapport"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raport de diagnostic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "诊断报告"
+          }
+        }
+      }
     },
     "Do not share any data." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for no sharing",
@@ -308,19 +488,119 @@
       }
     },
     "Done" : {
-      "comment" : "Button to close the issue report sent alert\nButton to close the report a problem screen"
+      "comment" : "Button to close the issue report sent alert\nButton to close the report a problem screen",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltooid"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gata"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
     },
     "Email" : {
-      "comment" : "Issue report contact email placeholder"
+      "comment" : "Issue report contact email placeholder",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
     },
     "Export Critical Event Logs" : {
-      "comment" : "Report a problem option: export the critical event logs"
+      "comment" : "Report a problem option: export the critical event logs",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logbestanden van kritieke gebeurtenissen exporteren"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportați jurnalele de evenimente critice"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出关键事件日志"
+          }
+        }
+      }
     },
     "Fill in any of these so developers can follow up with you." : {
-      "comment" : "Footer for issue report contact details"
+      "comment" : "Footer for issue report contact details",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vul een van deze contactgegevens in, zodat de ontwikkelaars contact met je kunnen opnemen."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completați oricare dintre acestea pentru ca dezvoltatorii să vă poată contacta ulterior."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请填写以下任意一项，以便开发人员与您联系。"
+          }
+        }
+      }
     },
     "GitHub Username" : {
-      "comment" : "Issue report contact GitHub placeholder"
+      "comment" : "Issue report contact GitHub placeholder",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub gebruikersnaam"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nume de utilizator GitHub"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub 用户名"
+          }
+        }
+      }
     },
     "In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." : {
       "comment" : "Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers",
@@ -400,7 +680,27 @@
       }
     },
     "Include Diagnostic Report" : {
-      "comment" : "Toggle for attaching the diagnostic report to an issue report"
+      "comment" : "Toggle for attaching the diagnostic report to an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg diagnostisch rapport toe"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Includeți raportul de diagnosticare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "包含诊断报告"
+          }
+        }
+      }
     },
     "LoopKit Analytics" : {
       "comment" : "Title for LoopKit Analytics",
@@ -480,7 +780,27 @@
       }
     },
     "Name" : {
-      "comment" : "Issue report contact name placeholder"
+      "comment" : "Issue report contact name placeholder",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nume"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
     },
     "No Sharing" : {
       "comment" : "Title in UsageDataPrivacyPreferenceView for no sharing",
@@ -560,43 +880,303 @@
       }
     },
     "OK" : {
-      "comment" : "Button to close the issue report error alert"
+      "comment" : "Button to close the issue report error alert",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
     },
     "One of the attachments isn't a supported image type." : {
-      "comment" : "Issue report error when an attachment type is refused"
+      "comment" : "Issue report error when an attachment type is refused",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een van de bijlagen heeft een afbeeldingsformaat dat niet wordt ondersteund."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unul dintre fișierele atașate nu este de un tip de imagine acceptat."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其中一个附件不是支持的图像类型。"
+          }
+        }
+      }
     },
     "Open a GitHub Issue" : {
-      "comment" : "Report a problem option: open the public GitHub issues page"
+      "comment" : "Report a problem option: open the public GitHub issues page",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een GitHub-issue aanmaken"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deschideți o solicitare pe GitHub"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交 GitHub 问题"
+          }
+        }
+      }
     },
     "Preparing Report…" : {
-      "comment" : "Shown while the diagnostic report is generated"
+      "comment" : "Shown while the diagnostic report is generated",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapport aan het voorbereiden"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se pregătește raportul…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "准备报告……"
+          }
+        }
+      }
     },
     "Private. Describe the problem and attach screenshots and a diagnostic report. Only the LoopKit development team can see it." : {
-      "comment" : "Report a problem option detail: submit an issue report to the developers"
+      "comment" : "Report a problem option detail: submit an issue report to the developers",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privé. Beschrijf het probleem en voeg schermafbeeldingen en een diagnostisch rapport toe. Alleen het LoopKit-ontwikkelteam kan dit zien."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privat. Descrieți problema și atașați capturi de ecran și un raport de diagnosticare. Doar echipa de dezvoltare LoopKit o poate vedea."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私密。请描述问题，并附上截图和诊断报告。只有LoopKit开发团队才能查看。"
+          }
+        }
+      }
     },
     "Public. For bugs you can describe without any personal or health data." : {
-      "comment" : "Report a problem option detail: open the public GitHub issues page"
+      "comment" : "Report a problem option detail: open the public GitHub issues page",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Openbaar. Voor fouten die je kunt beschrijven zonder persoonlijke gegevens of gezondheidsgegevens te delen."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Public. Pentru erori pe care le puteți descrie fără date personale sau medicale."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公开。您可以描述漏洞，无需提供任何个人或健康信息。"
+          }
+        }
+      }
     },
     "Report a Problem" : {
-      "comment" : "The title text for the report a problem menu item\nTitle of the report a problem screen"
+      "comment" : "The title text for the report a problem menu item\nTitle of the report a problem screen",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meld een probleem"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raportați o problemă"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "报告问题"
+          }
+        }
+      }
     },
     "Report Submitted" : {
-      "comment" : "Title of the alert after an issue report was submitted"
+      "comment" : "Title of the alert after an issue report was submitted",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melding verzonden"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raport trimis"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "报告已提交"
+          }
+        }
+      }
     },
     "Reports go to the LoopKit development team and are visible only to them. Your IP address is used only to limit how often reports can be sent and is never stored." : {
-      "comment" : "Privacy footer for issue reports"
+      "comment" : "Privacy footer for issue reports",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meldingen worden naar het LoopKit-ontwikkelteam gestuurd en zijn alleen voor hen zichtbaar. Je IP-adres wordt alleen gebruikt om te beperken hoe vaak je een melding kunt versturen en wordt nooit opgeslagen."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapoartele sunt transmise echipei de dezvoltare LoopKit și sunt vizibile numai pentru aceasta. Adresa dumneavoastră IP este utilizată doar pentru a limita frecvența cu care pot fi trimise rapoartele și nu este niciodată stocată."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "报告会发送给 LoopKit 开发团队，只有他们才能查看。您的 IP 地址仅用于限制报告发送频率，绝不会被存储。"
+          }
+        }
+      }
     },
     "Send to Developers" : {
-      "comment" : "Title of the issue report screen"
+      "comment" : "Title of the issue report screen",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuur naar ontwikkelaars"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trimiteți către dezvoltatori"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发送给开发者"
+          }
+        }
+      }
     },
     "Send to the Loop Developers" : {
-      "comment" : "Report a problem option: submit an issue report to the developers"
+      "comment" : "Report a problem option: submit an issue report to the developers",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuur naar de Loop-ontwikkelaars"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trimiteți către dezvoltatorii Loop"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发送给 Loop 开发人员"
+          }
+        }
+      }
     },
     "Share" : {
-      "comment" : "Button to share the diagnostic report"
+      "comment" : "Button to share the diagnostic report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享"
+          }
+        }
+      }
     },
     "Share a Diagnostic Report" : {
-      "comment" : "Report a problem option: share the diagnostic report yourself"
+      "comment" : "Report a problem option: share the diagnostic report yourself",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel een diagnostisch rapport"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partajați un raport de diagnosticare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享诊断报告"
+          }
+        }
+      }
     },
     "Share Data" : {
       "comment" : "Title on UsageDataPrivacyPreferenceView",
@@ -830,10 +1410,50 @@
       }
     },
     "Submit" : {
-      "comment" : "Button to submit an issue report to the developers"
+      "comment" : "Button to submit an issue report to the developers",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versturen"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trimiteți"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交"
+          }
+        }
+      }
     },
     "Submit Anonymously" : {
-      "comment" : "Toggle for submitting an issue report without contact details"
+      "comment" : "Toggle for submitting an issue report without contact details",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verstuur anoniem"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trimiteți anonim"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匿名提交"
+          }
+        }
+      }
     },
     "Submit Bug Report" : {
       "comment" : "Navigation link title for Submit Bug Report",
@@ -920,34 +1540,234 @@
       }
     },
     "Thank you. Your report ID is %1$@. Mention it if you discuss the problem on Zulip or GitHub." : {
-      "comment" : "Message after an issue report was sent (1: report ID)"
+      "comment" : "Message after an issue report was sent (1: report ID)",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedankt. Je rapport-ID is %1$@. Vermeld dit als je het probleem op Zulip of GitHub bespreekt."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulțumesc. Identificatorul raportului dumneavoastră este %1$@. Menționați acest lucru dacă discutați problema pe Zulip sau GitHub."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "谢谢。您的报告 ID 是 %1$@ 。如果您在 Zulip 或 GitHub 上讨论此问题，请提及该 ID。"
+          }
+        }
+      }
     },
     "The report is too large. Try fewer or smaller screenshots." : {
-      "comment" : "Issue report error when the upload is too large"
+      "comment" : "Issue report error when the upload is too large",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze melding is te groot. Probeer minder tekst of minder screenshots."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raportul este prea voluminos. Încercați să includeți mai puține capturi de ecran sau unele mai mici."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该报告文件过大。请尝试减少截图数量或缩小截图尺寸。"
+          }
+        }
+      }
     },
     "The report won't include your name, contact details or anything else that identifies you." : {
-      "comment" : "Footer for an anonymous issue report"
+      "comment" : "Footer for an anonymous issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In het rapport worden je naam, contactgegevens of andere gegevens waarmee je kunt worden geïdentificeerd, niet vermeld."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raportul nu va conține numele dumneavoastră, datele de contact sau orice alt element care v-ar putea identifica."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "报告中不会包含您的姓名、联系方式或任何其他可以识别您身份的信息。"
+          }
+        }
+      }
     },
     "The server couldn't accept the report (%1$d %2$@)." : {
-      "comment" : "Issue report error with HTTP status (1) and reason (2)"
+      "comment" : "Issue report error with HTTP status (1) and reason (2)",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De server kon het rapport niet verwerken (%1$d %2$@)."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serverul nu a putut accepta raportul (%1$d %2$@)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务器无法接受该报告（%1$d %2$@）。"
+          }
+        }
+      }
     },
     "The server sent an unexpected response." : {
-      "comment" : "Issue report error for an unreadable response"
+      "comment" : "Issue report error for an unreadable response",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het verzoek heeft een onverwacht antwoord opgeleverd."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serverul a trimis un răspuns neașteptat."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务器发送了意外响应。"
+          }
+        }
+      }
     },
     "Title (optional)" : {
-      "comment" : "Placeholder for the issue report title"
+      "comment" : "Placeholder for the issue report title",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel (optioneel)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titlu (opțional)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标题（可选）"
+          }
+        }
+      }
     },
     "Too many reports have been sent from this network recently. Please try again later." : {
-      "comment" : "Issue report error when rate limited"
+      "comment" : "Issue report error when rate limited",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn de laatste tijd te veel meldingen verzonden via dit netwerk. Probeer het later nog eens."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prea multe rapoarte au fost trimise recent din această rețea. Vă rugăm să încercați din nou mai târziu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近期该网络发送的报告过多，请稍后再试。"
+          }
+        }
+      }
     },
     "Try Again" : {
-      "comment" : "Button to retry sending an issue report"
+      "comment" : "Button to retry sending an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probeer opnieuw"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reîncercați"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重试"
+          }
+        }
+      }
     },
     "Unable to Submit Report" : {
-      "comment" : "Title of the alert when an issue report fails"
+      "comment" : "Title of the alert when an issue report fails",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan de melding niet versturen"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu se poate trimite raportul"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法提交报告"
+          }
+        }
+      }
     },
     "Up to %1$d screenshots or photos." : {
-      "comment" : "Footer for issue report screenshots (1: limit)"
+      "comment" : "Footer for issue report screenshots (1: limit)",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximaal %1$d screenshot of foto."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Până la %1$d capturi de ecran sau fotografii."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最多可上传 %1$d 张截图或照片。"
+          }
+        }
+      }
     },
     "Usage Data Sharing" : {
       "comment" : "Navigation Link Title for Usage Data Sharing",
@@ -1033,10 +1853,50 @@
       }
     },
     "View Diagnostic Report" : {
-      "comment" : "Button to view the diagnostic report attached to an issue report"
+      "comment" : "Button to view the diagnostic report attached to an issue report",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat diagnostisch rapport zien"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vizualizați raportul de diagnosticare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看诊断报告"
+          }
+        }
+      }
     },
     "View the report, then save it or send it to someone helping you, for example on Zulip or Facebook. It contains health data such as glucose, insulin, carbs and your therapy settings." : {
-      "comment" : "Report a problem option detail: share the diagnostic report yourself"
+      "comment" : "Report a problem option detail: share the diagnostic report yourself",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekijk het rapport en sla het op of stuur het naar iemand die je helpt, bijvoorbeeld via Zulip of Facebook. Het bevat gezondheidsgegevens, zoals je glucosewaarden, insuline, koolhydraten en behandelinstellingen."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vizualizați raportul, apoi salvați-l sau trimiteți-l cuiva care vă ajută, de exemplu pe Zulip sau Facebook. Acesta conține date despre sănătate, cum ar fi glicemia, insulina, carbohidrații și setările de terapie."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看报告后，您可以保存或将其发送给帮助您的人，例如通过 Zulip 或 Facebook。报告包含血糖、胰岛素、碳水化合物和治疗设置等健康数据。"
+          }
+        }
+      }
     },
     "You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." : {
       "comment" : "Main summary text for UsageDataPrivacyPreferenceView",
@@ -1116,7 +1976,27 @@
       }
     },
     "Zulip Name" : {
-      "comment" : "Issue report contact Zulip placeholder"
+      "comment" : "Issue report contact Zulip placeholder",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zulip naam"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nume Zulip"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zulip 名称"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
