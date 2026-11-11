@@ -29,6 +29,7 @@ struct SendIssueReportView: View {
     private static let maxDescriptionLength = 20_000
     private static let maxScreenshots = 8
     private static let maxAttachmentBytes = 10_000_000
+    private static let maxDiagnosticReportBytes = 20_000_000
 
     private struct Screenshot: Identifiable {
         let id = UUID()
@@ -219,9 +220,8 @@ struct SendIssueReportView: View {
             var attachments = screenshots.map(\.attachment)
             if includeDiagnosticReport, let generateDiagnosticReport {
                 let report = await generateDiagnosticReport()
-                // Stay under the server's per-file limit; decoding repairs a character cut in half
-                let text = String(decoding: report.utf8.prefix(Self.maxAttachmentBytes - 4), as: UTF8.self)
-                attachments.append(.init(filename: "diagnostic-report.txt", contentType: "text/plain; charset=utf-8", data: Data(text.utf8)))
+                let data = Self.fitted(Data(report.utf8), toBytes: Self.maxDiagnosticReportBytes)
+                attachments.append(.init(filename: "diagnostic-report.txt", contentType: "text/plain; charset=utf-8", data: data))
             }
             let report = IssueReport(
                 title: title.isEmpty ? nil : String(title.prefix(200)),
@@ -241,6 +241,20 @@ struct SendIssueReportView: View {
             }
             isSending = false
         }
+    }
+
+    /// Keeps the start of the report (build details and device state) and as much of its end as fits,
+    /// cutting at line breaks, so an oversized report loses its oldest log entries rather than its newest.
+    static func fitted(_ data: Data, toBytes limit: Int, headBytes: Int = 1_000_000) -> Data {
+        guard data.count > limit else { return data }
+        let marker = Data("\n[… older entries removed to fit the size limit …]\n".utf8)
+        let newline = UInt8(ascii: "\n")
+        let headLimit = min(headBytes, limit / 2)
+        let headEnd = data[..<(data.startIndex + headLimit)].lastIndex(of: newline).map { $0 + 1 } ?? data.startIndex
+        let tailLimit = limit - (headEnd - data.startIndex) - marker.count
+        let tailCut = data.endIndex - tailLimit
+        let tailStart = data[tailCut...].firstIndex(of: newline).map { $0 + 1 } ?? data.endIndex
+        return data[..<headEnd] + marker + data[tailStart...]
     }
 
     private static func trimmed(_ contact: IssueReport.Contact) -> IssueReport.Contact? {
