@@ -30,6 +30,10 @@ enum IssueReportContext {
         context["loopRevision"] = (buildDetails["com-loopkit-Loop-git-revision"] as? String).map { .string($0) }
         context["pumpModel"] = supportInfo?.pumpStatus.map { .string($0.device.model ?? "Unknown") }
         context["cgmModel"] = supportInfo?.cgmStatus.map { .string($0.device?.model ?? "Unknown") }
+        // Written by Loop at launch, newest first.
+        if let history = UserDefaults.standard.stringArray(forKey: "com.loopkit.Loop.versionHistory"), !history.isEmpty {
+            context["versionHistory"] = .strings(history)
+        }
         return context
     }
 
