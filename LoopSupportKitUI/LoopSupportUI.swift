@@ -42,6 +42,7 @@ public final class LoopSupportUI: SupportUI {
     public func configurationMenuItems() -> [LoopKitUI.CustomMenuItem] {
         return [
             CustomMenuItem(section: .support, view: AnyView(ReportProblemMenuItem(support: self))),
+            CustomMenuItem(section: .therapySettingsSupport, view: AnyView(therapySettingsHelpMenuItem)),
             CustomMenuItem(section: .configuration, view: AnyView(UsageDataPrivacyPreferenceMenuItem())),
         ]
     }
@@ -50,22 +51,20 @@ public final class LoopSupportUI: SupportUI {
         AnyView(ReportProblemModal(delegate: delegate))
     }
 
-    public func therapySettingsHelpView() -> AnyView? {
-        AnyView(
-            Link(destination: URL(string: "https://loopkit.github.io/loopdocs/loop-3/therapy-settings/")!) {
-                HStack {
-                    Text(LocalizedString("Get help with Therapy Settings", comment: "Support button for Therapy Settings"))
-                        .foregroundColor(.primary)
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                        .imageScale(.small)
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                        .opacity(0.5)
-                }
-                .contentShape(Rectangle())
+    private var therapySettingsHelpMenuItem: some View {
+        Link(destination: URL(string: "https://loopkit.github.io/loopdocs/loop-3/therapy-settings/")!) {
+            HStack {
+                Text(LocalizedString("Get help with Therapy Settings", comment: "Support button for Therapy Settings"))
+                    .foregroundColor(.primary)
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .imageScale(.small)
+                    .font(.headline)
+                    .foregroundColor(.secondary)
+                    .opacity(0.5)
             }
-        )
+            .contentShape(Rectangle())
+        }
     }
 
     public func loopWillReset() { }
